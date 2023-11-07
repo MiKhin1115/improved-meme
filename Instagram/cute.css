@@ -243,3 +243,28 @@
     border-color: #fe446c;
     color: #fe446c;
 }
+.search3 {
+    overflow: auto;
+  }
+ .search3::-webkit-scrollbar {
+    display: none;
+  }
+
+.PopupSearchbox{
+    display: none;
+    position: fixed;
+    width: 350px;
+    height: 200px;
+    background-color: #fe4f41;
+    margin-top: 0px;
+    margin-left: 425px;
+    overflow-y: auto;
+    border-radius: 10px;
+}
+.column{
+    padding: 15px;
+}
+.text {
+    font-size: larger;
+}
+a{ text-decoration: none;color:#ffffff}
